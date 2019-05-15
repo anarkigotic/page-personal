@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Juan Pérez</title>
+
+    <!-- Estilos y fuentes del template  -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <style>
+        .icono {
+            height: 50px;
+        }
+
+        .tab-pane.active {
+            animation: slide-down 2s ease-out;
+        }
+
+        .margin-down {
+            margin-top: 30px;
+        }
+
+        @keyframes slide-down {
+            0% {
+                opacity: 0;
+                transform: translateY(100%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Juan David Jerez</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menú
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Portada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tecnologias.html">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Cabecera -->
+    <header class="masthead" style="background-image: url('img/tecnologias.jpeg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>Tecnologias</h1>
+                        <span class="subheading">del dia a dia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+
+    <div class="container">
+        <nav id="myTab" class="nav nav-tabs" role="tablist">
+            <a class="nav-item nav-link active" id="nav-front-tab" data-toggle="tab" href="#nav-front" role="tab"
+                aria-controls="nav-front" aria-selected="true">Frontend</a>
+            <a class="nav-item nav-link" id="nav-back-tab" data-toggle="tab" href="#nav-back" role="tab"
+                aria-controls="nav-back" aria-selected="false">Backend</a>
+            <a class="nav-item nav-link" id="nav-movile-tab" data-toggle="tab" href="#nav-movile" role="tab"
+                aria-controls="nav-movile" aria-selected="false">Moviles</a>
+            <a class="nav-item nav-link" id="nav-dev-tab" data-toggle="tab" href="#nav-dev" role="tab"
+                aria-controls="nav-dev" aria-selected="false">Devops</a>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane active" id="nav-front" role="tabpanel" aria-labelledby="nav-front-tab">
+                <div class="container margin-down">
+                    <!-- fn tecno Angular -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="https://img.icons8.com/color/48/000000/angularjs.png">
+                            <img class="icono"
+                                src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/037/square_256/ngrxstore-logo.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Angular</h3>
+                            <p class="text-info" style="font-size: 16px;">
+                                He manejado distintas versiones de angular desde angulajs hasta la version mas actual
+                                usando buenas practicas como ngrx para centralizar la informacion, uso avanzado de rxjs.
+
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">
+                                    90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="https://cdn.iconscout.com/icon/free/png-128/vue-282497.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Vuejs</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">
+                                    90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">ReacJs</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+                                    80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <!-- Pié de página -->
+                </div>
+            </div>
+
+            <div class="tab-pane" id="nav-back" role="tabpanel" aria-labelledby="nav-back-tab">
+                <div class="container">
+                    <!-- fn tecno Nodejs -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="https://cdn2.iconfinder.com/data/icons/nodejs-1/128/nodejs-128.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">NodeJs</h3>
+                            <p class="text-info" style="font-size: 16px;">
+                                He manejado distintas frameworks de nodes como son express, sailsjs ,happyjs
+
+                            </p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:96%;">
+                                    96%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr />
+                    <!-- fn tecno Python -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/python-icon.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Python</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%;">
+                                    70%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="https://image.flaticon.com/icons/png/512/226/226777.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Java</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%;">
+                                    60%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <!-- Pié de página -->
+                </div>
+            </div>
+
+            <div class="tab-pane" id="nav-movile" role="tabpanel" aria-labelledby="nav-movile-tab">
+                <div class="container">
+                    <!-- fn tecno Angular -->
+
+
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="http://sovitpoudel.com.np/wp-content/uploads/2019/01/flutter.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Flutter</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+                                    80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono" src="https://mobiscroll.com/Content/icons/ionic.svg">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Ionic</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+                                    80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <!-- Pié de página -->
+                </div>
+            </div>
+
+            <div class="tab-pane" id="nav-dev" role="tabpanel" aria-labelledby="nav-dev-tab">
+                <div class="container">
+                    <!-- fn tecno Angular -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Docker</h3>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">
+                                    90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="https://wiki.jenkins.io/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Jenkis</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">
+                                    90%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="https://upload.wikimedia.org/wikipedia/en/0/00/Kubernetes_%28container_engine%29.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">Kubernates</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+                                    80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <div>
+                        <div class="row justify-content-center">
+                            <img class="icono"
+                                src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/VMware-icon.png">
+                        </div>
+                        <div>
+                            <h3 class="row justify-content-center">VMware</h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+                                    80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- fn tecno Reac -->
+                    <!-- Pié de página -->
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2019 · Juan David Jérez (Ingeniero Sistema) </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Bootstrap y Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
